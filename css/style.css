@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family:'warrior';
+    src: url(/fonts/NINJA\ FIGHTER.otf);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 3px solid;
+}
+
+.a {
+    margin: 3px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.item1 {
+    width: 100%;
+    height: 50px;
+    flex-grow: 30;
+    font-family: warrior;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    font-size: 30px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(3, 171, 183);
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.item3 {
+    width: 100%;
+    background-color: rgb(13, 255, 0);
+}
+
+p {
+    padding: 10px;
+    text-indent: 50px;
+    word-spacing: 15px;
+    
+}
+
+.item4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(22, 77, 106);
+
+}
+
+.left {
+    width: 30%;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    font-size: 30px;
+    word-spacing: 10px;
+    line-height: 60px;
+    justify-content: center;
+    flex-grow: 2;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(205, 173, 117);
+}
+
+.right {
+    width: 58%;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    text-indent: 30px;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 2;
+    word-spacing: 10px;
+    font-weight: bold;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: rgb(205, 173, 117);
+
+}
+.worrier{
+    width: 100%;
+}
+.item5 {
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 114, 172);
+}
